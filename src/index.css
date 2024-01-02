@@ -5,6 +5,11 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: rgb(1,0,17);
+background: -moz-linear-gradient(32deg, rgba(1,0,17,1) 0%, rgba(7,31,59,1) 44%, rgba(9,73,144,1) 100%);
+background: -webkit-linear-gradient(32deg, rgba(1,0,17,1) 0%, rgba(7,31,59,1) 44%, rgba(9,73,144,1) 100%);
+background: linear-gradient(32deg, rgba(1,0,17,1) 0%, rgba(7,31,59,1) 44%, rgba(9,73,144,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#010011",endColorstr="#094990",GradientType=1);
 }
 
 code {
