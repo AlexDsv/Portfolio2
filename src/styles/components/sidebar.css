@@ -1,0 +1,26 @@
+.sidebar{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    position: fixed;
+    left: 0;
+    top: 50%;
+    gap: 10px;
+    background: #0e1014ef;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 0px 8px 8px 0px;
+}
+
+.sidebar i{
+    color: #a1a1a1;
+    font-size: 34px;
+    transition: 200ms all;
+}
+
+.sidebar i:hover{
+    color: white;
+}
