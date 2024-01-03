@@ -1,0 +1,78 @@
+.about {
+  height: 100vh;
+  background: transparent;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.about h2 {
+  margin: 0;
+  font-size: 48px;
+  margin-bottom: 80px;
+}
+
+.about-content {
+  display: flex;
+  width: 75%;
+  justify-content: space-between;
+}
+
+.about h3 {
+  font-size: 30px;
+}
+
+.about p {
+  font-size: 18px;
+  color: rgb(216, 216, 216);
+}
+
+.white-span {
+  color: white;
+  font-weight: 600;
+}
+
+.blue-span {
+  color: #5f76e7;
+  font-weight: 600;
+}
+
+.about .me {
+  display: flex;
+  flex-direction: column;
+  width: 45%;
+}
+
+.about .skills {
+  display: flex;
+  flex-direction: column;
+  width: 45%;
+  justify-content: space-between;
+}
+
+.about .skill-bubble {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  background: #324abd;
+  border-radius: 8px;
+  padding: 8px;
+  font-size: 18px;
+}
+
+.skills-bubbles {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.contact-btn {
+  border: none;
+  background: #5f76e7;
+  border-radius: 9999px;
+  color: white;
+  font-size: 18px;
+  padding: 15px;
+}

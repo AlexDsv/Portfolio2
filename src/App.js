@@ -1,9 +1,10 @@
 import logo from "./logo.svg";
 import "./App.css";
-import Home from "./pages/Home";
 import NavBar from "./components/NavBar";
 import Sidebar from "./components/Sidebar";
 import { useState } from "react";
+import About from "./pages/About";
+import Home from "./pages/Home";
 
 function App() {
   const [darkMode, setDarkMode] = useState(false);
@@ -16,6 +17,7 @@ function App() {
       <NavBar />
       <Sidebar />
       <Home />
+      <About />
       <button
         onClick={toggleMode}
         className={
