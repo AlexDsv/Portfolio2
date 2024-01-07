@@ -1,35 +1,29 @@
-import logo from "./logo.svg";
 import "./App.css";
 import NavBar from "./components/NavBar";
 import Sidebar from "./components/Sidebar";
-import { useState } from "react";
 import About from "./pages/About";
 import Home from "./pages/Home";
-
+import Projects from "./pages/Projects";
+import Contact from "./pages/Contact";
+import ScrollSpy from "react-ui-scrollspy";
 function App() {
-  const [darkMode, setDarkMode] = useState(false);
-
-  const toggleMode = () => {
-    setDarkMode(!darkMode);
-  };
   return (
-    <div className={darkMode ? "dark-mode" : "light-mode"}>
+    <div>
       <NavBar />
       <Sidebar />
-      <Home />
-      <About />
-      <button
-        onClick={toggleMode}
-        className={
-          darkMode ? "light-mode mode-toggle" : "dark-mode mode-toggle"
-        }
-      >
-        {darkMode ? (
-          <i class="fa-solid fa-sun"></i>
-        ) : (
-          <i class="fa-solid fa-moon"></i>
-        )}
-      </button>
+
+      <div id="home">
+        <Home />
+      </div>
+      <div id="about">
+        <About />
+      </div>
+      <div id="projects">
+        <Projects />
+      </div>
+      <div id="contact">
+        <Contact />
+      </div>
     </div>
   );
 }

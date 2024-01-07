@@ -5,6 +5,8 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background: #07090e;
+  color: white;
 }
 
 .about h2 {
@@ -44,14 +46,14 @@
   width: 45%;
 }
 
-.about .skills {
+.skills {
   display: flex;
   flex-direction: column;
   width: 45%;
   justify-content: space-between;
 }
 
-.about .skill-bubble {
+.skill-bubble {
   display: flex;
   justify-content: center;
   align-items: center;

@@ -1,68 +1,70 @@
-.home{
-    height: 100vh;
-    background: transparent;
-    display: flex;
-    justify-content: center;
+.home {
+  height: 100vh;
+  background: transparent;
+  display: flex;
+  justify-content: center;
+  background: linear-gradient(25deg, #07090e 45%, 80%, #4259cd);
+  color: white;
 }
 
-.home h2{
-    margin: 0;
-    font-size: 72px;
-    line-height: 1;
-    font-weight: 700;
+.home h2 {
+  margin: 0;
+  font-size: 72px;
+  line-height: 1;
+  font-weight: 700;
 }
 
-.home h3{
-    background: linear-gradient(28deg,#92a0e8 45%, 80%, #4259cd);
-    color: transparent;
-    background-clip: text;
-    display: inline-block;
-    font-size: 48px;
-    margin: 0;
+.home h3 {
+  background: linear-gradient(28deg, #92a0e8 45%, 80%, #4259cd);
+  color: transparent;
+  background-clip: text;
+  display: inline-block;
+  font-size: 48px;
+  margin: 0;
 }
-.home-content{
-    width: 65%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.home-left{
-    width: 70%;
+.home-content {
+  width: 65%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.home-right{
-    width: 30%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 40px;
+.home-left {
+  width: 70%;
 }
 
-.home-right button{
-    border: none;
-    background: #5f76e7;
-    border-radius: 9999px;
-    color: white;
-    font-size: 18px;
-    padding: 15px;
-}
-.home-photo{
-    width: 274px;
-    height: 274px;
-    border-radius: 9999px;
-    background-image: url('../../../public/photo.jpg');
-    background-position: -106px -123px;
-    background-size: 487px;
+.home-right {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
 }
 
-.home-left p{
-    font-size: 18px;
-    width: 75%;
-    color: #a1a1a1;
+.home-right button {
+  border: none;
+  background: #5f76e7;
+  border-radius: 9999px;
+  color: white;
+  font-size: 18px;
+  padding: 15px;
+}
+.home-photo {
+  width: 274px;
+  height: 274px;
+  border-radius: 9999px;
+  background-image: url("../../../public/photo.jpg");
+  background-position: -106px -123px;
+  background-size: 487px;
 }
 
-.home a{
-    text-decoration: none;
-    color: white;
+.home-left p {
+  font-size: 18px;
+  width: 75%;
+  color: #a1a1a1;
+}
+
+.home a {
+  text-decoration: none;
+  color: white;
 }

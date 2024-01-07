@@ -1,11 +1,11 @@
 :root {
   --background-light: #e1e2e7;
-  --background-dark:  linear-gradient(28deg,#030407 45%, 80%, #4259cd);
+  --background-dark: linear-gradient(28deg, #030407 45%, 80%, #4259cd);
   --text-light: black;
   --text-dark: white;
 }
 
-.light-mode{
+.light-mode {
   background: var(--background-light);
   color: var(--text-light);
 }
@@ -15,7 +15,7 @@
   color: var(--text-dark);
 }
 
-.mode-toggle{
+.mode-toggle {
   border-radius: 50px;
   width: 50px;
   height: 50px;
@@ -25,20 +25,20 @@
   bottom: 35px;
   right: 75px;
   font-size: 20px;
-  -webkit-box-shadow: 5px 5px 28px -2px rgba(0,0,0,0.55); 
-  box-shadow: 5px 5px 28px -2px rgba(0,0,0,0.55);
+  -webkit-box-shadow: 5px 5px 28px -2px rgba(0, 0, 0, 0.55);
+  box-shadow: 5px 5px 28px -2px rgba(0, 0, 0, 0.55);
 }
 
 body {
   margin: 0;
-  font-family: "Poppins",-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+    "Helvetica Neue", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }

@@ -1,42 +1,37 @@
-import React, { useState } from "react";
+import React from "react";
 import "../styles/components/navbar.css";
+import Scrollspy from "react-scrollspy";
+import { Link } from "react-scroll";
 
 const NavBar = () => {
-  const [activeItem, setActiveItem] = useState("Accueil");
-
-  const handleItemClick = (item) => {
-    setActiveItem(item);
-  };
-
   return (
     <header className="header">
       <nav className="navbar">
-        <ul>
-          <li
-            className={activeItem === "Accueil" ? "active" : ""}
-            onClick={() => handleItemClick("Accueil")}
-          >
-            Accueil
+        <Scrollspy
+          items={["home", "about", "projects", "contact"]}
+          currentClassName="is-current"
+        >
+          <li>
+            <Link to="home" smooth={true} duration={500}>
+              Accueil
+            </Link>
           </li>
-          <li
-            className={activeItem === "A propos" ? "active" : ""}
-            onClick={() => handleItemClick("A propos")}
-          >
-            A propos
+          <li>
+            <Link to="about" smooth={true} duration={500}>
+              A propos
+            </Link>
           </li>
-          <li
-            className={activeItem === "Projets" ? "active" : ""}
-            onClick={() => handleItemClick("Projets")}
-          >
-            Projets
+          <li>
+            <Link to="projects" smooth={true} duration={500}>
+              Projets
+            </Link>
           </li>
-          <li
-            className={activeItem === "Contact" ? "active" : ""}
-            onClick={() => handleItemClick("Contact")}
-          >
-            Contact
+          <li>
+            <Link to="contact" smooth={true} duration={500}>
+              Contact
+            </Link>
           </li>
-        </ul>
+        </Scrollspy>
       </nav>
     </header>
   );

@@ -1,0 +1,107 @@
+.projects {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+  padding-bottom: 20vh;
+  background: #07090e;
+  color: white;
+  padding-top: 10vh;
+}
+
+.project {
+  background: #0e1014ef;
+  border-radius: 15px;
+  display: flex;
+  justify-content: space-between;
+  width: 55%;
+  height: 40vh;
+  overflow: hidden;
+  position: relative;
+}
+
+.project h3 {
+  margin: 0;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.project-description {
+  font-size: 16px;
+}
+
+.project-infos {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  padding: 30px;
+  justify-content: space-evenly;
+  gap: 10px;
+}
+
+.project-img {
+  background-image: url("../../../public/photo.jpg");
+  background-size: cover;
+  width: 40%;
+}
+
+.project-skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.project-skill-bubble {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  background: #324abd;
+  border-radius: 8px;
+  padding: 8px;
+  font-size: 18px;
+}
+
+.projects h2 {
+  margin: 0;
+  font-size: 48px;
+  margin-bottom: 80px;
+}
+
+.project-hover {
+  display: none;
+}
+
+.project:hover .project-hover {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.8);
+}
+
+.project-link-btn {
+  background: transparent;
+  border: solid 2px white;
+  border-radius: 20px;
+  font-size: 18px;
+  color: white;
+  padding: 15px;
+  cursor: pointer;
+  transition: 100ms all;
+}
+
+.project-link-btn {
+  text-decoration: none;
+  color: white;
+}
+
+.project-link-btn:hover {
+  background-color: white;
+  color: black;
+  font-weight: 600;
+}
