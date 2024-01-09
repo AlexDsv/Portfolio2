@@ -9,6 +9,7 @@
   left: 0;
   right: 0;
   z-index: 1000;
+  transition: 400ms all;
 }
 
 .navbar {
@@ -21,6 +22,7 @@
   padding-right: 8px;
   padding-top: 10px;
   padding-bottom: 10px;
+  transition: 400ms all;
 }
 
 .navbar ul {
@@ -56,4 +58,50 @@
   background: #17266d;
   border-radius: 9999px;
   color: white;
+}
+
+.burger-menu {
+  display: none;
+}
+
+@media (max-width: 769px) {
+  .header {
+    top: 0;
+  }
+  .navbar ul {
+    display: none;
+  }
+
+  .navbar {
+    background: #0e1014;
+    width: 100%;
+    border-radius: 0;
+    justify-content: flex-end;
+  }
+
+  .burger-menu {
+    display: block;
+    width: 100%;
+    font-size: calc(0.5rem + 3.5vw);
+    color: white;
+    padding: 10px;
+  }
+
+  .burger-icon {
+    display: flex;
+    justify-content: end;
+  }
+  .burger-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .burger-nav ul {
+    display: block;
+    text-align: center;
+  }
+  .burger-nav li {
+    font-size: calc(0.5rem + 2.5vw);
+  }
 }

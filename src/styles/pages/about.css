@@ -92,3 +92,30 @@
   text-decoration: none;
   color: white;
 }
+
+@media (max-width: 769px) {
+  .about {
+    height: auto;
+  }
+
+  .about-content {
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .about .me {
+    width: 80%;
+  }
+
+  .about .skills {
+    width: 80%;
+  }
+
+  .skills-bubbles {
+    justify-content: center;
+    margin-bottom: 4vh;
+  }
+}

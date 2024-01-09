@@ -18,7 +18,9 @@ const Home = () => {
           </p>
         </div>
         <div className="home-right">
-          <div className="home-photo"></div>
+          <div className="home-photo-container">
+            <div className="home-photo"></div>
+          </div>
           <div className="resume-download-btn">
             <button>
               <a target="blank" href="./CV.pdf" download="CV_Alex_Da_Silva">
@@ -26,6 +28,33 @@ const Home = () => {
               </a>
             </button>
           </div>
+        </div>
+      </div>
+      <div className="mobile-home-content">
+        <div className="home-right">
+          <div className="home-photo-container">
+            <div className="home-photo"></div>
+          </div>
+        </div>
+        <div className="home-left">
+          <h2>
+            Alex <br /> Da Silva
+          </h2>
+          <h3>Développeur Frontend</h3>
+          <p>
+            "Ma passion est de transformer vos concepts les plus innovants en
+            réalités numériques, en créant des interfaces utilisateur qui sont
+            non seulement intuitives, mais aussi offrent une expérience fluide
+            et captivante."
+          </p>
+        </div>
+
+        <div className="resume-download-btn">
+          <button>
+            <a target="blank" href="./CV.pdf" download="CV_Alex_Da_Silva">
+              Téléchargez mon CV <i class="fa-solid fa-download"></i>
+            </a>
+          </button>
         </div>
       </div>
     </div>
