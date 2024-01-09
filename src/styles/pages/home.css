@@ -43,12 +43,26 @@
 
 .home-right button {
   border: none;
-  background: #5f76e7;
-  border-radius: 9999px;
   color: white;
   font-size: 18px;
-  padding: 15px;
+  background: transparent;
 }
+
+.resume-download-btn {
+  background: #5f76e7;
+  padding: 15px;
+  border-radius: 9999px;
+  cursor: pointer;
+  border: solid 2.5px transparent;
+  transition: 100ms all;
+}
+
+.resume-download-btn:hover {
+  background: transparent;
+  border: solid 2.5px #5f76e7;
+  transform: scale(1.05);
+}
+
 .home-photo {
   width: 274px;
   height: 274px;

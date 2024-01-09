@@ -6,7 +6,7 @@
 
 .contact {
   text-align: center;
-  height: 90vh;
+  height: 85vh;
   background: linear-gradient(200deg, #07090e 40%, 80%, #4259cd);
   color: white;
 }
@@ -24,4 +24,8 @@
 
 .contact p {
   font-size: 28px;
+}
+
+#contact {
+  scroll-behavior: smooth;
 }

@@ -74,7 +74,21 @@
   border: none;
   background: #5f76e7;
   border-radius: 9999px;
+  border: solid transparent 2.5px;
   color: white;
   font-size: 18px;
   padding: 15px;
+  cursor: pointer;
+  transition: 100ms all;
+}
+
+.contact-btn:hover {
+  background: transparent;
+  border: solid 2.5px #324abd;
+  transform: scale(1.05);
+}
+
+.contact-btn a {
+  text-decoration: none;
+  color: white;
 }

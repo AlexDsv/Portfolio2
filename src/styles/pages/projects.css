@@ -14,10 +14,11 @@
   border-radius: 15px;
   display: flex;
   justify-content: space-between;
-  width: 55%;
-  height: 40vh;
+  width: 60%;
+  height: 47vh;
   overflow: hidden;
   position: relative;
+  transition: all 500ms;
 }
 
 .project h3 {
@@ -37,12 +38,38 @@
   padding: 30px;
   justify-content: space-evenly;
   gap: 10px;
+  transition: all 500ms;
 }
 
 .project-img {
-  background-image: url("../../../public/photo.jpg");
-  background-size: cover;
   width: 40%;
+  transition: all 500ms;
+  border-radius: 15px;
+}
+
+#project-img {
+  background-image: url("../../../public/Slot-img.png");
+  background-size: cover;
+}
+
+#project-img1 {
+  background-image: url("../../../public/Kasa-img.png");
+  background-size: cover;
+}
+
+#project-img2 {
+  background-image: url("../../../public/photographer-portfolio-img.png");
+  background-size: cover;
+}
+
+#project-img3 {
+  background-image: url("../../../public/Furniro-img.png");
+  background-size: cover;
+}
+
+#project-img4 {
+  background-image: url("../../../public/Booki-img.png");
+  background-size: cover;
 }
 
 .project-skills {
@@ -70,6 +97,7 @@
 
 .project-hover {
   display: none;
+  transition: all 500ms;
 }
 
 .project:hover .project-hover {
@@ -81,7 +109,7 @@
   left: 0;
   height: 100%;
   width: 100%;
-  background: rgba(0, 0, 0, 0.8);
+  background: rgba(0, 0, 0, 0.7);
 }
 
 .project-link-btn {

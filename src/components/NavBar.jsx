@@ -10,27 +10,20 @@ const NavBar = () => {
         <Scrollspy
           items={["home", "about", "projects", "contact"]}
           currentClassName="is-current"
+          offset={-300}
         >
-          <li>
-            <Link to="home" smooth={true} duration={500}>
-              Accueil
-            </Link>
-          </li>
-          <li>
-            <Link to="about" smooth={true} duration={500}>
-              A propos
-            </Link>
-          </li>
-          <li>
-            <Link to="projects" smooth={true} duration={500}>
-              Projets
-            </Link>
-          </li>
-          <li>
-            <Link to="contact" smooth={true} duration={500}>
-              Contact
-            </Link>
-          </li>
+          <Link to="home" smooth={true} duration={500}>
+            <li>Accueil</li>
+          </Link>
+          <Link to="about" smooth={true} duration={500}>
+            <li>A propos</li>
+          </Link>
+          <Link to="projects" smooth={true} duration={500}>
+            <li>Projets</li>
+          </Link>
+          <Link to="contact" smooth={true} duration={500}>
+            <li>Contact</li>
+          </Link>
         </Scrollspy>
       </nav>
     </header>

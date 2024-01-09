@@ -1,5 +1,6 @@
 import React from "react";
 import "../styles/pages/about.css";
+import { Link } from "react-scroll";
 
 const About = () => {
   return (
@@ -51,7 +52,9 @@ const About = () => {
           </div>
           <div>
             <button className="contact-btn">
-              Contactez-moi <i class="fa-solid fa-arrow-right"></i>
+              <Link to="contact" smooth={true} duration={500}>
+                Contactez-moi <i class="fa-solid fa-arrow-right"></i>
+              </Link>
             </button>
           </div>
         </div>
