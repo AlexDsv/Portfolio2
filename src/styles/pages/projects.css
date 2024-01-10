@@ -133,3 +133,35 @@
   color: black;
   font-weight: 600;
 }
+
+@media (max-width: 1250px) {
+  .project {
+    flex-direction: column-reverse;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+    padding: 25px;
+    height: auto;
+  }
+
+  .project:hover .project-hover {
+    display: block;
+    position: inherit;
+    width: auto;
+    height: auto;
+  }
+
+  .project-img {
+    display: none;
+  }
+  .project-infos {
+    width: 90%;
+  }
+  .project-hover {
+    display: block;
+    margin: 10px;
+  }
+}
+
+@media (max-width: 769px) {
+}

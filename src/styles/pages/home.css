@@ -31,6 +31,7 @@
 
 .home-left {
   width: 70%;
+  padding-right: 18px;
 }
 
 .home-right {
@@ -86,6 +87,10 @@
 .home a {
   text-decoration: none;
   color: white;
+}
+
+.mobile-home-content {
+  display: none;
 }
 
 @media (max-width: 769px) {
