@@ -9,7 +9,7 @@ const Sidebar = () => {
       </a>
       <a
         target="blank"
-        href="www.linkedin.com/in/alex-dsv
+        href="https://www.linkedin.com/in/alex-dsv
 
 "
       >
