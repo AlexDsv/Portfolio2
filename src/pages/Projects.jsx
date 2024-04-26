@@ -45,7 +45,15 @@ const Projects = () => {
           >
             Voir le projet
           </a>
+          <a
+            className="project-link-btn"
+            href="https://alexdsv-kasa.online/"
+            target="blank"
+          >
+            Visiter le site
+          </a>
         </div>
+
         <div className="project-infos">
           <div className="project-name">
             <h3>Kasa</h3>
@@ -109,6 +117,13 @@ const Projects = () => {
           >
             Voir le projet
           </a>
+          <a
+            className="project-link-btn"
+            href="https://www.alexdsv-furniro.online"
+            target="blank"
+          >
+            Visiter le site
+          </a>
         </div>
         <div className="project-infos">
           <div className="project-name">
@@ -139,6 +154,13 @@ const Projects = () => {
             target="blank"
           >
             Voir le projet
+          </a>
+          <a
+            className="project-link-btn"
+            href="https://www.alexdsv-kasa.online"
+            target="blank"
+          >
+            Visiter le site
           </a>
         </div>
         <div className="project-infos">
